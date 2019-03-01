@@ -10,11 +10,10 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires|
+      - | |travis| |requires|
         | |codecov|
     * - package
-      - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
+      - | |commits-since|
 .. |docs| image:: https://readthedocs.org/projects/python-sepulcrum/badge/?style=flat
     :target: https://readthedocs.org/projects/python-sepulcrum
     :alt: Documentation Status
@@ -35,25 +34,10 @@ Overview
     :alt: Coverage Status
     :target: https://codecov.io/github/ccsplit/python-sepulcrum
 
-.. |version| image:: https://img.shields.io/pypi/v/sepulcrum.svg
-    :alt: PyPI Package latest release
-    :target: https://pypi.org/project/sepulcrum
 
 .. |commits-since| image:: https://img.shields.io/github/commits-since/ccsplit/python-sepulcrum/v0.0.0.svg
     :alt: Commits since latest release
     :target: https://github.com/ccsplit/python-sepulcrum/compare/v0.0.0...master
-
-.. |wheel| image:: https://img.shields.io/pypi/wheel/sepulcrum.svg
-    :alt: PyPI Wheel
-    :target: https://pypi.org/project/sepulcrum
-
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/sepulcrum.svg
-    :alt: Supported versions
-    :target: https://pypi.org/project/sepulcrum
-
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/sepulcrum.svg
-    :alt: Supported implementations
-    :target: https://pypi.org/project/sepulcrum
 
 
 .. end-badges
@@ -67,7 +51,7 @@ Installation
 
 ::
 
-    pip install sepulcrum
+    python setup.py install
 
 Documentation
 =============
