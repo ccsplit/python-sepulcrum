@@ -1,6 +1,6 @@
 [paths]
 source =
-   src
+   sepulcrum
    */site-packages
 
 [run]

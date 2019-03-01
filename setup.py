@@ -37,9 +37,8 @@ setup(
     author="Cory Shay",
     author_email='""',
     url="https://github.com/ccsplit/python-sepulcrum",
-    packages=find_packages("src"),
-    package_dir={"": "src"},
-    py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
+    packages=find_packages(include=["sepulcrum"]),
+    py_modules=[splitext(basename(path))[0] for path in glob("sepulcrum/*.py")],
     include_package_data=True,
     zip_safe=False,
     classifiers=[

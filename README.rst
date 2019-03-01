@@ -36,7 +36,7 @@ Overview
 
 .. |commits-since| image:: https://img.shields.io/github/commits-since/ccsplit/python-sepulcrum/v0.0.1.svg
     :alt: Commits since latest release
-    :target: https://github.com/ccsplit/python-sepulcrum/compare/v0.0.1...master
+    :target: https://github.com/ccsplit/python-sepulcrum/compare/v0.0.0...master
 
 
 .. end-badges
