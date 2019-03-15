@@ -12,6 +12,8 @@ logging.basicConfig(format=LOGGING_FORMAT, level=logging.INFO)
 
 def get_logger(name, level="info"):
     logger = logging.getLogger(name)
-    level = logging.getLevelName(level.upper())
+    if isinstance(level, str):
+        level = level.upper()
+    level = logging.getLevelName(level)
     logger.setLevel(level)
     return logger
