@@ -1,7 +1,7 @@
 import socket
 import ssl
 
-from ..logging import get_logger
+from ..log import get_logger
 
 
 class Client(object):

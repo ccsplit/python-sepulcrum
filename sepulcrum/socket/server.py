@@ -1,6 +1,6 @@
 import os
 
-from ..logging import get_logger
+from ..log import get_logger
 
 try:
     import SocketServer
