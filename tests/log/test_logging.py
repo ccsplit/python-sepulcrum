@@ -1,5 +1,6 @@
-from ..context import get_logger
 import logging
+
+from ..context import get_logger
 
 
 def test_get_logger_default():

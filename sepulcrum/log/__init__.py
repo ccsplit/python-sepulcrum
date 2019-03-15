@@ -1,6 +1,5 @@
 import logging
 
-
 # The LOGGING_FORMAT will be in the following format:
 # Time [LogLevel] {LoggerName:ProcessID(if available)}: Message
 # Example:
