@@ -17,6 +17,7 @@ class Client(object):
             )
         else:
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.encoding = encoding
         self.socket.connect((host, port))
 
     def send(self, text):
