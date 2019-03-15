@@ -10,10 +10,7 @@ except ImportError:
 
 
 class BaseRequestHandler(SocketServer.BaseRequestHandler):
-    def __init__(
-        self, request, client_address, server, encoding="UTF-8", receive_size=1024
-    ):
-        super(BaseRequestHandler, self).__init__(request, client_address, server)
+    def setup(self, encoding="UTF-8", receive_size=1024):
         self.logger = get_logger(self.__class__.__name__)
         self.encoding = encoding
         self.recv_size = receive_size
