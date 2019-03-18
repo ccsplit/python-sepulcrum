@@ -34,7 +34,7 @@ Overview
     :alt: Coverage Status
     :target: https://codecov.io/github/ccsplit/python-sepulcrum
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/ccsplit/python-sepulcrum/v0.0.1.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/ccsplit/python-sepulcrum/v0.0.0.svg
     :alt: Commits since latest release
     :target: https://github.com/ccsplit/python-sepulcrum/compare/v0.0.0...master
 
