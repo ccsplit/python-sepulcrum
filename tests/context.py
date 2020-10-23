@@ -7,3 +7,4 @@ import sepulcrum  # noqa
 
 from sepulcrum.cli import main  # noqa
 from sepulcrum.log import get_logger  # noqa
+from sepulcrum.network import sort_ips  # noqa
