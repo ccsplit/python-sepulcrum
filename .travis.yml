@@ -42,13 +42,7 @@ install:
   - pip --version
   - tox --version
   - |
-    set -ex
-    if [[ $TRAVIS_PYTHON_VERSION == 'pypy3' ]]; then
-      PYPY_EXEC=$(which python)
-      echo $PYPY_EXEC
-      ln -s $PYPY_EXEC "${PYPY_EXEC}3"
-    fi
-    set +x
+    set -e
 script:
   - tox -v
 after_failure:
