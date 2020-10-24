@@ -44,7 +44,9 @@ install:
   - |
     set -ex
     if [[ $TRAVIS_PYTHON_VERSION == 'pypy3' ]]; then
-      ln -s /bin/python /bin/python3
+      PYPY_EXEC=$(which python)
+      echo $PYPY_EXEC
+      ln -s $PYPY_EXEC "${PYPY_EXEC}3"
     fi
     set +x
 script:
