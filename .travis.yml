@@ -43,15 +43,8 @@ install:
   - tox --version
   - |
     set -ex
-    if [[ $TRAVIS_PYTHON_VERSION == 'pypy' ]]; then
-        (cd $HOME
-         pypy -m ensurepip
-         pypy -m pip install -U virtualenv)
-    fi
     if [[ $TRAVIS_PYTHON_VERSION == 'pypy3' ]]; then
-        (cd $HOME
-         pypy3 -m ensurepip
-         pypy3 -m pip install -U virtualenv)
+      ln -s /bin/python /bin/python3
     fi
     set +x
 script:
