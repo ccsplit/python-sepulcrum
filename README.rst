@@ -10,7 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |requires|
+      - | ![Python Master Workflow](https://github.com/ccsplit/python-sepulcrum/workflows/Python%20Master%20Workflow/badge.svg) ![Multi-Python Tests](https://github.com/ccsplit/python-sepulcrum/workflows/Python%20package/badge.svg) |requires|
         | |codecov|
     * - package
       - | |commits-since|
